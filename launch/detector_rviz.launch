@@ -1,0 +1,18 @@
+<launch>
+
+  <!-- 二维码检测节点 -->
+  <node
+    name="qr_detector_node"
+    pkg="qr_barcode_detector"
+    type="qr_detector_node"
+    output="screen"/>
+
+  <!-- RViz -->
+  <node
+    name="rviz"
+    pkg="rviz"
+    type="rviz"
+    args="-d $(find qr_barcode_detector)/rviz/qr.rviz"
+    required="false"/>
+
+</launch>

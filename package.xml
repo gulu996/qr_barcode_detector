@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>qr_barcode_detector</name>
+  <version>0.0.1</version>
+  <description>
+    QR code and barcode detection using Jetson Orin + Hikvision camera
+  </description>
+
+  <maintainer email="574339709@qq.com">gulu</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>image_transport</depend>
+  <depend>cv_bridge</depend>
+  
+  <depend>opencv2</depend>
+
+</package>
